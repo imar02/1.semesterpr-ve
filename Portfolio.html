@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="About me.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabriela&family=Montserrat&family=Source+Serif+Pro:wght@600&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+           function toggleMobile()
+{
+  var mobileUl = document.getElementById("main-header-ul");
+  var hasClass = (mobileUl.className != "");
+  var newClass = (hasClass ? "" : "show");
+  mobileUl.className = newClass;
+}
+        </script>
+    </head>
+<body>
+    <header class="topnav">
+            <span>
+                IMAR.DK
+            </span>
+        </div>
+        <nav>
+            <button class="btn-mobile" onclick="toggleMobile()">☰</button>
+            <ul id="main-header-ul">
+                <li><a href="./Index.html">HOME</a></li>
+                <li><a href="./About me.html">ABOUT ME</a></li>
+                <li><a href="./Portfolio.html">PORTFOLIO</a></li>
+                <li><a href="./Contact.html">CONTACT</a></li>
+              <li class="mobile-li"><button onclick="toggleMobile()">Luk menu</button></li>
+            </ul>
+          </nav>
+    </header>
+    <h1 class="Main-header">PORTFOLIO</h1>
+        
+    <nav class="main-section">
+        <h2>Project 1</h2>
+        <img src="Images/Project1.png" alt="Project1">
+        <style>
+            img {
+              width: 100%;
+              height: auto;
+            }
+        </style>
+        <details>
+            <summary>Click here for more info</summary>
+            <p>In this project, we had to make a website for a tango dance school with a specific target group. I would probably say that this was my very first "real" project, as I had no experience when we made our first real project. I played with different things and coded my very first newsletter.</p>
+        </details>
+    </nav>
+    <br>
+
+    <nav class="main-section">
+        <h2>Project 2</h2> 
+        <img src="Images/Project2.png" alt="Project2">
+        <style>
+            img {
+              width: 100%;
+              height: auto;
+            }
+        </style>
+        <details>
+            <summary>Click here for more info</summary>
+            <p>This project is a continuous project 1. Everyone had to hand over their own project to someone else and work on the original idea and design a completely new website. I designed both the website and the FAQ page (which I did not include).</p>
+        </details>
+    </nav>
+    <br>
+
+    <nav class="main-section">
+        <h2>Project 3</h2> 
+        <img src="Images/Project3.png" alt="Project3">
+        <style>
+            img {
+              width: 100%;
+              height: auto;
+            }
+        </style>
+        <details>
+            <summary>Click here for more info</summary>
+            <p>fj</p>
+        </details>
+    </nav>
+    <br>
+
+    <!-- https://www.w3schools.com/html/html5_video.asp -->
+    <nav class="main-section">
+        <h2>Project 4</h2> 
+        <video width="320" height="240" controls>
+            <source src="Video/Gruppe1.mp4" type="video/mp4">
+            <source src="Video/Gruppe1.mp4" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+        <details>
+            <summary>Click here for more info</summary>
+            <p>This project is the most recent project I’ve worked on. This project is probably one of my favorites as I got to do something completely new compared to the other projects where I had to make websites. I learned how to edit on premiere pro and after effects, which is something I’ve always wanted to learn.</p>
+        </details>
+    </nav>
+
+
+    <footer class="footer">
+        <h3>IMAR.DK</h3>
+        <div class="main-footer2">
+            <ul id="main-footer-ul">
+                <li><a href="./Index.html">HOME</a></li>
+                <li><a href="./About me.html">ABOUT ME</a></li>
+                <li><a href="./Portfolio.html">PORTFOLIO</a></li>
+                <li><a href="./Contact.html">CONTACT</a></li>
+            </ul>
+            </div>
+            <h3>CONTACT</h3>
+            <p>+45 12 34 56 78</p>
+            <p>CONTACT@IMAR.DK</p>
+            <style>
+                img {
+                  width: 50%;
+                  height: auto;
+                }
+            </style>
+        </footer>
+</body>

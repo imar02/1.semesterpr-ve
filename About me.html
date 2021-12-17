@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>About me</title>
+        <link rel="stylesheet" type="text/css" href="About me.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabriela&family=Montserrat&family=Source+Serif+Pro:wght@600&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+           function toggleMobile()
+{
+  var mobileUl = document.getElementById("main-header-ul");
+  var hasClass = (mobileUl.className != "");
+  var newClass = (hasClass ? "" : "show");
+  mobileUl.className = newClass;
+}
+        </script>
+    </head>
+<body>
+    <header class="topnav">
+            <span>
+                IMAR.DK
+            </span>
+        </div>
+        <nav>
+            <button class="btn-mobile" onclick="toggleMobile()">☰</button>
+            <ul id="main-header-ul">
+                <li><a href="./Index.html">HOME</a></li>
+                <li><a href="./About me.html">ABOUT ME</a></li>
+                <li><a href="./Portfolio.html">PORTFOLIO</a></li>
+                <li><a href="./Contact.html">CONTACT</a></li>
+              <li class="mobile-li"><button onclick="toggleMobile()">Luk menu</button></li>
+            </ul>
+          </nav>
+    </header>
+    <h1 class="Main-header">ABOUT ME</h1>
+        
+    <section class="main-section">
+        <h2>Hello,</h2>
+        <p>My name is Imane Arraji and I'm 19 years old. I’m currently studying as a multimediadesigner at Zealand Academy in Køge.</p> <br>
+        
+        <p>The reason I chose this kind of education was that I thought it sounded very interesting. I've always had a thing about designing things, and when I found out that it’s possible to make your own website, I decided to send an application.</p> <br>
+        
+        <p>A hobby of mine is photography. I like to take pictures of everything possible. It does not matter if it is people, objects or even my surroundings. I like to think I save my memories on a camera every time I take a picture.</p> <br>
+
+        <p>Here's a few of the pictures that I've taken.</p>
+    </section>
+
+    <section class="main-section">
+   
+        <p>These pictures was taken in a museum.</p>
+        <img src="Images/Billede1.png" alt="Billede1">
+        <br>
+        <img src="Images/Billede3.png" alt="Billede3">
+        <br>
+        <p>This picture was taken in Morocco.</p>
+        <img src="Images/Billede2.jpg" alt="Billede2">
+        <br>
+        <p>This picture was taken in a park.</p>
+        <img src="Images/Billede4.JPG" alt="Billede4">
+        <style>
+            img {
+                width: 100%;
+                height: auto;
+              }
+        </style>
+    </section>
+
+    <footer class="footer">
+        <h3>IMAR.DK</h3>
+        <div class="main-footer2">
+            <ul id="main-footer-ul">
+                <li><a href="./Index.html">HOME</a></li>
+                <li><a href="./About me.html">ABOUT ME</a></li>
+                <li><a href="./Portfolio.html">PORTFOLIO</a></li>
+                <li><a href="./Contact.html">CONTACT</a></li>
+            </ul>
+            </div>
+        <h3>CONTACT</h3>
+        <p>+45 12 34 56 78</p>
+        <p>CONTACT@IMAR.DK</p>
+        <img src="Images/SoMe.png" alt="SoMe">
+        <style>
+            img {
+              width: 50%;
+              height: auto;
+            }
+        </style>
+    </footer>
+</body>
